@@ -1,0 +1,10 @@
+$pixeldistance: (5, 10, 15, 20);
+@each $space in $pixeldistance {
+  .m-b-#{$space} {
+    margin-bottom: #{$space}px;
+  }
+  .m-l-#{$space} {
+    margin-left: #{$space}px;
+  }
+
+}
